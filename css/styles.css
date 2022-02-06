@@ -3,6 +3,7 @@
   --title-text-color: #212121;
   --akcent-text-color: #2196f3;
   --main-text-color: #ffffff;
+  --border-color: #eeeeee;
 
   --fone-background-color: #ffffff;
   --main-background-color: #2f303a;
@@ -201,3 +202,40 @@ body {
 .address-list-link-item:focus {
   color: var(--akcent-text-color);
 }
+/*-----------------------end Studio-----------------------*/
+
+/*-----------------------start Portfolio-----------------------*/
+.filter-list-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  color: var(--title-text-color);
+}
+
+.filter-list-button:hover,
+.filter-list-button:focus {
+  color: var(--main-text-color);
+  background-color: var(--button-color);
+}
+
+.projects-item-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+
+.projects-item-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+/*-----------------------end Portfolio-----------------------*/
